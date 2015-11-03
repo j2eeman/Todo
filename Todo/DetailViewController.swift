@@ -47,7 +47,7 @@ class DetailViewController: UIViewController,UITextFieldDelegate {
         }
     }
     override func didReceiveMemoryWarning() {
-        //
+        // Dispose of any resources that can be recreated.
     }
     
     func textFieldShouldEndEditing(textField: UITextField) -> Bool{
