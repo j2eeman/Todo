@@ -48,6 +48,7 @@ class DetailViewController: UIViewController,UITextFieldDelegate {
     }
     override func didReceiveMemoryWarning() {
         //test merge with BranchTest
+        // Dispose of any resources that can be recreated.
     }
     
     func textFieldShouldEndEditing(textField: UITextField) -> Bool{
